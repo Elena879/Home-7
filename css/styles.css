@@ -108,7 +108,7 @@ header {
     font-size: 72px;
     font-family: "Roboto Slab", serif;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
 }
 
 .main-heading span {
@@ -494,7 +494,7 @@ form {
 
 .main-footer {
     background: url('../img/footer-bg.png') no-repeat center top / cover;
-    padding: 85px 0 243px 0;
+    padding: 85px 0 120px 0;
 }
 
 .main-footer p {
@@ -510,6 +510,16 @@ form {
 
 .main-footer span {
     font-weight: 700;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-footer a:hover {
+    transition: 0.2s;
+    opacity: 0.8;
 }
 
 /*footer end*/
